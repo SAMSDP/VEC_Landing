@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* Orangish color */
+  
+}
+
+.programs-container {
+  text-align: center;
+  padding: 50px 0;
+  padding-top: 0px;
+
+}
+
+.programs {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 3.1%;
+}
+
+.program-card {
+  background: linear-gradient(135deg, #f00a0a, #0011ff);
+  width: 400px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* .program-card:hover {
+  transform: scale(1.05);
+} */
+
+.program-card h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.program-card ul {
+  list-style-type: none;
+  padding: 0;
+  
+}
+
+.program-card li {
+  margin-bottom: 20px;
+}
+
+.program-card a {
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+.program-card a:hover {
+  text-decoration: underline;
+}
